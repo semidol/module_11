@@ -1,0 +1,17 @@
+button {
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    background-color: transparent;
+    border: 2px solid black;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    max-height: 2;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
