@@ -8,7 +8,6 @@ const websocket = new WebSocket('wss://echo-ws-service.herokuapp.com/');
 
 function successGeo(position) {
   isGeo = true;
-  console.log(isGeo)
   let latitude = position.coords.latitude;
   let longitude = position.coords.longitude;
   let link = `<a href="https://www.openstreetmap.org/#map=15/${latitude}/${longitude}" target="_blank">Геолокация</a>`;
